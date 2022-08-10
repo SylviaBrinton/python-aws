@@ -1,0 +1,8 @@
+sudo apt-get install software-properties-common
+sudo apt-add-repository universe
+sudo apt-get update
+sudo apt-get install python3-pip
+from pip._internal import main
+pip3 install boto3
+
+Ref: https://stackoverflow.com/questions/54753301/how-to-install-boto3-on-ubuntu-18-04
